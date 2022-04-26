@@ -1,0 +1,3 @@
+rails g scaffold Meter name:string location:string unit:string
+rails g resource Reading meter:references value:float
+#rails g resource Reading meter:references unit:string value:float
