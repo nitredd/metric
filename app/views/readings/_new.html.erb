@@ -1,5 +1,5 @@
 <%= form_with model: [meter, Reading.new] do |form| %>
 <%# form.text_field :unit, placeholder: 'Unit' %>
 <%= form.text_field :value, placeholder: 'Value' %>
-<%= form.submit value: 'Record Reading' %>
+<%= form.submit value: 'Record Reading', style: 'width: 150px;' %>
 <% end %>
